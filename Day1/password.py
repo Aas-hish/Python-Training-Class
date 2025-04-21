@@ -22,3 +22,4 @@ if (len(passs)>7):
         print("Weak Password")
 else:
     print("Need to alteast 8 character")
+
