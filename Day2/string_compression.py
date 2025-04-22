@@ -14,3 +14,5 @@ def com_string(s):
             
 s= input("Enter a string: ")
 com_string(s)
+
+
