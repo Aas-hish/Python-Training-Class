@@ -24,9 +24,7 @@ while (len(ans) !=1):
     ans.pop(i)
 print(ans)
 
-    
-
-
+   
 
 # Note ; to remove number from list
 # a = [1,2,2,2,3,4,5]
