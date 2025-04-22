@@ -1,8 +1,8 @@
 import time
 import os
 
-h=3 
-m=3
+h=4
+m=38
 s=0
 while True:
 
@@ -20,3 +20,12 @@ while True:
         m=0
         h=0
     os.system("clear")
+    
+    
+    
+    
+# for i,j,k in zip (range(1,50),range(99,50,-1),range(100,150,-1)):
+#     print(i,end=" ")
+#     print(j,end=" ")
+#     print(k,end=" ")
+#     print()
