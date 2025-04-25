@@ -1,3 +1,5 @@
+from collections import deque
+
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
         res=[]
@@ -11,3 +13,7 @@ class Solution(object):
             if i>=k-1:
                 res.append(nums[sliding[0]])
         return res
+
+S = Solution()
+ans= S.maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7],3)
+print(ans)
