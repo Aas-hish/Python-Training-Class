@@ -10,11 +10,12 @@ class Solution(object):
             if (k >0  and nums[i]<0):
                 nums[i] = -nums[i]
                 k= k-1
-            nums.sort()
             
-            if (k>0 and  k%2 != 0):
-                nums[0]=-nums[0]
-            return sum(nums)
+            
+        if (k>0 and  k%2 != 0):
+            nums.sort()
+            nums[0]=-nums[0]
+        return sum(nums)
 
         
 

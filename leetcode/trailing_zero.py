@@ -6,7 +6,7 @@ def trailing_zero(num):
         i *= 5
     return count
 
-print(trailing_zero(5))  
+print(trailing_zero(10))  
 
         
  
