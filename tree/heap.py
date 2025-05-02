@@ -9,21 +9,22 @@ for i in elements:
 
 print("Heap:", min_heap)
 
-sorted_heap = []
+sorted_min_heap = []
 while min_heap:
-    sorted_heap.append(heapq.heappop(min_heap))
+    sorted_min_heap.append(heapq.heappop(min_heap))
 
-print("Sorted:", sorted_heap)
+print("Sorted:", sorted_min_heap)
 
 
 
 for i in elements:
     heapq.heappush(max_heap,-i)
-print("Max-Heap",max_heap)
+print("Max-Heap:",max_heap)
 
 sorted_max_heap = []
 while max_heap:
     sorted_max_heap.append(-heapq.heappop(max_heap))
-print("Sorted Max Heap",sorted_max_heap)
+print("Sorted Max Heap:",sorted_max_heap)
+
 
 
